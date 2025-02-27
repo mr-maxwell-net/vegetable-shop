@@ -1,0 +1,28 @@
+{
+  "basket": [
+    {
+      "id": 1,
+      "image": "/img/ed-o-neil-AvvdZlhDowA-unsplash 1@2x.jpg",
+      "title": "Heirloom tomato",
+      "quantity": 1,
+      "price": "5.99",
+      "total": "5.99"
+    },
+    {
+      "id": 2,
+      "image": "/img/noonbrew-ziCb4_EKmak-unsplash.jpg",
+      "title": "Organic ginger",
+      "quantity": 0.5,
+      "price": "12.99",
+      "total": "6.50"
+    },
+    {
+      "id": 3,
+      "image": "/img/k8-0_fkPHulv-M-unsplash 2.jpg",
+      "title": "Sweet onion",
+      "quantity": 5,
+      "price": "2.99",
+      "total": "14.95"
+    }
+  ]
+}

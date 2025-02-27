@@ -1,0 +1,148 @@
+/* ======= Page Header ======= */
+
+.basket-qty {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 120%;
+}
+
+/* ======= Basket Wrapper ======= */
+
+.basket-wrapper {
+  display: flex;
+  column-gap: 32px;
+  align-items: flex-start;
+}
+
+.basket-cards {
+  display: flex;
+  flex-direction: column;
+  row-gap: 31px;
+  flex-grow: 1;
+}
+
+.basket-sidebar {
+  width: 395px;
+}
+
+/* ======= Basket Card ======= */
+
+.basket-card {
+  position: relative;
+  display: flex;
+  column-gap: 24px;
+}
+
+.basket-card--info {
+  padding: 24px 85px 24px 0;
+}
+
+.basket-card--image {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 24px 0 0 24px;
+}
+
+.basket-card--total {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.basket-card--title,
+.basket-card--price {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.basket-card--title {
+  color: var(--primary-text-color);
+  margin-bottom: 4px;
+}
+
+.basket-card--price {
+  color: var(--primery-color);
+}
+
+.basket-card--qty {
+  width: 128px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-top: 15px;
+
+  &::after {
+  }
+}
+
+.basket-card--qty::after {
+  content: '';
+  position: absolute;
+  right: 15.11px;
+  background-image: url("data:image/svg+xml,%3Csvg width='17' height='18' viewBox='0 0 17 18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M12.7728 2.14861C13.1633 1.75808 13.7965 1.75808 14.187 2.14861L15.6012 3.56282C15.9918 3.95334 15.9918 4.58651 15.6012 4.97703L14.187 6.39127L11.3586 3.56289L10.6515 4.27L13.4799 7.09838L5.20873 15.3695L1.67319 16.0766L2.3803 12.5411L12.7728 2.14861ZM1.46073 17.1389L5.70174 16.2907L16.3083 5.68414C17.0894 4.90309 17.0894 3.63676 16.3083 2.85571L14.8941 1.4415C14.1131 0.660451 12.8467 0.660451 12.0657 1.4415L1.4591 12.0481L0.610897 16.2891L0.398438 17.3514L1.46073 17.1389Z' fill='%236D6D6D'/%3E%3C/svg%3E%0A");
+  width: 17px;
+  height: 17px;
+}
+
+.basket-card--qty--input {
+  max-width: 100%;
+  border: 2px solid #0000000f;
+  border-radius: 20px;
+  padding: 10px 40px 10px 16px;
+}
+
+/* ======= Basket Sidebar ======= */
+
+.basket-sidebar {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+  padding: 24px;
+}
+
+.basket-sidebar--title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130%;
+}
+
+.basket-sidebar--details {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.basket-sidebar--details--row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+
+  & strong {
+    font-weight: 600;
+  }
+}
+
+.basket-sidebar--link {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 14px 24px;
+
+  &::after {
+    width: 16px;
+    height: 12px;
+    content: '';
+    position: absolute;
+    right: 24px;
+    background-image: url('/img/Arrow-Right.svg');
+  }
+}

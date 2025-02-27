@@ -1,0 +1,22 @@
+{
+  "name": "learn-vite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.0.5"
+  },
+  "dependencies": {
+    "glob": "^11.0.0",
+    "handlebars": "^4.7.8",
+    "sanitize.css": "^13.0.0",
+    "sass": "^1.83.0",
+    "vite-plugin-handlebars": "^2.0.0",
+    "vite-plugin-minify": "^2.1.0"
+  }
+}

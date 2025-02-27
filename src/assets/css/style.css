@@ -1,0 +1,78 @@
+@import 'sanitize.css';
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+  --primary-text-color: #000000;
+  --primery-color: #426B1F;
+  --inter-font: "Inter", sans-serif;
+  --newsreader-font: "Newsreader", serif;
+}
+
+body {
+  font-family: var(--inter-font);
+  color: var(--primary-text-color);
+  font-size: 16px;
+}
+
+body,
+body * {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding-bottom: 40px;
+}
+
+.container {
+  width: 1248px;
+  margin: 0 auto;
+}
+
+/* ====================== */
+
+.header-nav {
+  display: flex;
+
+  & ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    column-gap: 48px;
+
+    & li a {
+      text-decoration: none;
+      color: #000000;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 0;
+}
+
+.hedear-right {
+  display: flex;
+  column-gap: 48px;
+  align-items: center;
+}
+
+.header-basket {
+  padding: 13px 23px 14px;
+  font-size: 16px;
+}
+
+.header-brand {
+  color: var(--primery-color);
+  font-size: 32px;
+  font-weight: 500;
+}

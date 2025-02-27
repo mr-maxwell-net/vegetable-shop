@@ -1,0 +1,23 @@
+<article 
+  class="basket-card primary-rounded-card" 
+  data-id="{{this.id}}"
+  data-price="{{this.price}}"
+>
+  <img src="{{this.image}}" alt="ed-o-neil-AvvdZlhDowA-unsplash 1@2x" class="basket-card--image">
+
+  <div class="basket-card--info">
+
+    <h1 class="basket-card--title">{{this.title}}</h1>
+    <span class="basket-card--price">${{this.price}} / lb</span>
+    
+    <div class="basket-card--qty">
+      <input 
+        type="text" 
+        class="basket-card--qty--input" 
+        value="{{this.quantity}} lb"
+      >
+    </div>
+  </div>
+
+  <span class="basket-card--total">${{this.total}}</span>
+</article>
