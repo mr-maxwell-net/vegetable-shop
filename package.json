@@ -1,7 +1,8 @@
 {
-  "name": "learn-vite",
+  "name": "vegetable-shop",
+  "author": "mister-maxwell",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,13 +10,13 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^6.0.5"
+    "vite": "^6.2.0"
   },
   "dependencies": {
-    "glob": "^11.0.0",
+    "glob": "^11.0.1",
     "handlebars": "^4.7.8",
     "sanitize.css": "^13.0.0",
-    "sass": "^1.83.0",
+    "sass": "^1.85.1",
     "vite-plugin-handlebars": "^2.0.0",
     "vite-plugin-minify": "^2.1.0"
   }

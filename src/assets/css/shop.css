@@ -1,0 +1,120 @@
+/* ======= Page Header ======= */
+
+.shop-header {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.products-status {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 130%;
+    padding-top: 14px;
+
+    & strong {
+        font-weight: 500;
+        line-height: 120%
+    }
+}
+
+.filter-wrapper-inner {
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+
+}
+
+.filter-button {
+    padding: 10px 16px;
+    align-items: center;
+    border: 1px solid #C2C2C2;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20.8px;
+    transition: all 0.2s linear;
+}
+
+
+/* .filter-button[data-active], */
+.filter-button.filter-button--active {
+    background-color: #426B1F;
+    color: #FFFFFF;
+    border: 1px solid #426B1F;
+}
+
+.filter-button:active,
+.filter-button:hover {
+    background-color: #426B1F;
+    color: #FFFFFF;
+    border: 1px solid #426B1F;
+}
+
+/* ======= Product Wrapper ======= */
+
+.product-cards {
+    display: flex;
+    column-gap: 32px;
+    align-items: flex-start;
+}
+
+/* ======= Product Card ======= */
+
+/* .product-card {} */
+
+.product-card--image {
+    width: 395px;
+    height: 296px;
+    /* object-fit: cover;
+    object-position: center; */
+    border-radius: 24px 24px 0 0;
+}
+
+.product-card--info {
+    padding: 24px 0 24px 24px;
+}
+
+.product-card--title,
+.product-card--price {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px
+}
+
+.product-card--title {
+    color: var(--primary-text-color);
+    padding-bottom: 4px;
+    
+}
+
+.product-card--price {
+    color: var(--primery-color);
+    padding-bottom: 16px;
+}
+
+.product-card--note {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--primery-color-note);
+}
+
+.product-link {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 14px 24px;
+    margin: 0 24px 28px 24px;
+
+    &::after {
+        width: 16px;
+        height: 12px;
+        content: '';
+        position: absolute;
+        right: 24px;
+        background-image: url("/img/Arrow-Right.svg");
+    }
+}

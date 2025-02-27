@@ -1,76 +1,77 @@
 .preview-text {
-  text-align: center;
-  max-width: 1020px;
-  margin: 167px auto 48px;
-  font-size: 64px;
-  font-weight: 400;
-  line-height: 120%;
-}
-
-.shop-btn-link {
-  display: block;
-  padding: 19px 32px;
-  font-size: 20px;
-  margin: 0 auto 156px;
-  width: fit-content;
-}
-
-.main-content {
-  display: flex;
-  column-gap: 60px;
-}
-
-.main-content-block {
-  margin: 0;
-
-  & img {
-    /* max-width: 100%; */
-    height: auto;
+    text-align: center;
+    max-width: 1020px;
+    margin: 167px auto 48px;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 120%;
   }
-
-  /* &.negative-offset {
+  
+  .shop-btn-link {
+    display: block;
+    padding: 19px 32px;
+    font-size: 20px;
+    margin: 0 auto 156px;
+    width: fit-content;
+  }
+  
+  .main-content {
+    display: flex;
+    column-gap: 60px;
+  }
+  
+  .main-content-block {
+    margin: 0;
+  
+    & img {
+      /* max-width: 100%; */
+      height: auto;
+    }
+  
+    /* &.negative-offset {
       margin-right: -96px;
     } */
-}
-
-.main-content-text {
-  font-weight: 300;
-  font-size: 14px;
-  margin-top: 16px;
-  line-height: 160%;
-  letter-spacing: -0.01em;
-
-  & strong {
-    font-weight: 500;
   }
-}
-
-.what-we-believe {
-  display: flex;
-  column-gap: 68px;
-  align-items: flex-start;
-  margin-top: 156px;
-}
-
-.what-we-believe--block {
-  line-height: 160%;
-
-  &:first-child {
-    flex-shrink: 0;
+  
+  .main-content-text {
+    font-weight: 300;
     font-size: 14px;
-    font-weight: 600;
-    letter-spacing: 4%;
-    text-transform: uppercase;
-    margin-top: 5px;
-  }
-
-  &:last-child {
-    flex-grow: 1;
-    font-size: 20px;
-    font-weight: 400;
-
-    & p {
-      margin: 0;
+    margin-top: 16px;
+    line-height: 160%;
+    letter-spacing: -0.01em;
+  
+    & strong {
+      font-weight: 500;
     }
   }
-}
+  
+  .what-we-believe {
+    display: flex;
+    column-gap: 68px;
+    align-items: flex-start;
+    margin-top: 156px;
+  }
+  
+  .what-we-believe--block {
+    line-height: 160%;
+  
+    &:first-child {
+      flex-shrink: 0;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 4%;
+      text-transform: uppercase;
+      margin-top: 5px;
+  
+    }
+  
+    &:last-child {
+      flex-grow: 1;
+      font-size: 20px;
+      font-weight: 400;
+  
+      & p {
+        margin: 0;
+      }
+    }
+  }

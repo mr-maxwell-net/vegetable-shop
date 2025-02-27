@@ -18,12 +18,14 @@
     <div class="container">
       <div class="page-header">
         <h1 class="page-title">Basket</h1>
-        <span class="basket-qty">3 item</span>
+        <span class="basket-qty">{{cart.length}} item</span>
       </div>
 
       <div class="basket-wrapper">
         <div class="basket-cards">
-          
+          {{#each cart}}
+          {{> basket-card }}
+          {{/each}}
         </div>
 
         <aside class="basket-sidebar primary-rounded-card">

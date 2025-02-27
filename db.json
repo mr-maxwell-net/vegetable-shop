@@ -23,6 +23,30 @@
       "quantity": 5,
       "price": "2.99",
       "total": "14.95"
+    },
+    {
+      "id": 4,
+      "image": "/img/cabbage-png-grey-bg.jpg",
+      "title": "Delicious cabbage",
+      "quantity": 1,
+      "price": "7.99",
+      "total": "7.99"
+    },
+    {
+      "id": 5,
+      "image": "/img/radish-vegetable-picture_2.jpg",
+      "title": "Farm radish",
+      "quantity": 1,
+      "price": "1.99",
+      "total": "1.99"
+    },
+    {
+      "id": 6,
+      "image": "/img/green-pea-picture.png",
+      "title": "Green pea",
+      "quantity": 1,
+      "price": "2.99",
+      "total": "2.99"
     }
   ]
 }

@@ -4,9 +4,10 @@
 
 :root {
   --primary-text-color: #000000;
-  --primery-color: #426B1F;
-  --inter-font: "Inter", sans-serif;
-  --newsreader-font: "Newsreader", serif;
+  --primery-color: #426b1f;
+  --inter-font: 'Inter', sans-serif;
+  --newsreader-font: 'Newsreader', serif;
+  --primery-color-note: #6d6d6d;
 }
 
 body {

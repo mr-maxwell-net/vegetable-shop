@@ -76,9 +76,6 @@
   align-items: center;
   position: relative;
   padding-top: 15px;
-
-  &::after {
-  }
 }
 
 .basket-card--qty::after {
@@ -92,7 +89,7 @@
 
 .basket-card--qty--input {
   max-width: 100%;
-  border: 2px solid #0000000f;
+  border: 2px solid #0000000F;
   border-radius: 20px;
   padding: 10px 40px 10px 16px;
 }
@@ -143,6 +140,6 @@
     content: '';
     position: absolute;
     right: 24px;
-    background-image: url('/img/Arrow-Right.svg');
+    background-image: url("/img/Arrow-Right.svg");
   }
 }

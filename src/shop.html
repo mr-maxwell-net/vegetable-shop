@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,13 +10,44 @@
     <link rel="stylesheet" href="src/assets/css/workpieces.css">
     <link rel="stylesheet" href="src/assets/css/shop.css">
 </head>
+
 <body>
     {{> header }}
 
     <main>
+        <div class="container">
+            <div class="page-header">
 
+                <h1 class="page-title">Produce</h1>
+                <div class="shop-header">
+
+                    <span class="products-status"><strong>Fresh</strong> — August 21, 2023</span>
+                    <div class="filter-wrapper-inner">
+                        <button class="filter-button filter-button--active">Default</button>
+                        <button class="filter-button">A-Z</button>
+                        <button class="filter-button">List view</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="product-cards">
+                <div>
+                    {{> product-card }}
+                </div>
+
+                <div>
+                    {{> product-card }}
+                </div>
+
+                <div>
+                    {{> product-card }}
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer></footer>
 </body>
+
 </html>
